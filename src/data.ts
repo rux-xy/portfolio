@@ -1,5 +1,3 @@
-// src/data.ts
-
 export const CONTACT = {
   name: "Rumeth Wijethunge",
   title: "Programmer / Graphic Designer",
@@ -176,7 +174,10 @@ export const REFERENCES = [
 ];
 
 export const SOCIALS = [
-  { label: "GitHub", href: "https://github.com/yourname" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/yourname/" },
+  { label: "GitHub", href: "https://github.com/rux-xy" },
+  {
+    label: "LinkedIn",
+    href: "www.linkedin.com/in/rumeth-wijethunge-09632315a",
+  },
   { label: "Email", href: `mailto:${CONTACT.email}` },
 ];

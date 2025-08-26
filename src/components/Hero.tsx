@@ -15,7 +15,8 @@ export default function Hero() {
           <p className="text-[#b4b4bb] mb-4">
             Undergraduate in Computer Science, Statistics, and Pure
             Mathematics—actively growing as a programmer and graphic designer.
-            Seeking an internship to learn fast and contribute.
+            Experienced in web development, data analysis, and design tools like
+            Adobe Illustrator and Canva.
           </p>
 
           <div className="flex gap-3">
