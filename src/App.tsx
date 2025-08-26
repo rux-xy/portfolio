@@ -10,7 +10,7 @@ export default function App() {
     <div className="container">
       <header className="nav">
         <Link to="/" className="brand">
-          <img src="/public/logo.png" alt="R logo" className="logo" />
+          <img src="/logo.png" alt="R logo" className="logo" />
           <span className="brand-text">Rumeth</span>
         </Link>
 
