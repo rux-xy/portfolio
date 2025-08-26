@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
   // Smooth in-page scrolling
+
   useEffect(() => {
     const onClick = (e: MouseEvent) => {
       const a = (e.target as HTMLElement).closest(
