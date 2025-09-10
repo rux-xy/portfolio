@@ -1,4 +1,5 @@
 import { CONTACT, SOCIALS } from "../data";
+import SocialsChip from "../components/SocialsChip";
 
 export default function Contact() {
   return (
@@ -38,15 +39,7 @@ export default function Contact() {
 
       <div className="flex gap-2 flex-wrap">
         {SOCIALS.map((s) => (
-          <a
-            key={s.label}
-            href={s.href}
-            target="_blank"
-            rel="noreferrer"
-            className="text-xs text-[#b4b4bb] border border-[#24242a] rounded-full px-2 py-1 hover:opacity-80"
-          >
-            {s.label}
-          </a>
+          <SocialsChip key={s.label} social={s} />
         ))}
       </div>
     </section>

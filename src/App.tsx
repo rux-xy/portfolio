@@ -1,13 +1,13 @@
 import { useEffect } from "react";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Projects from "./components/Projects";
-import Experience from "./components/Experience";
-import Education from "./components/Education";
-import Skills from "./components/Skills";
-import Achievements from "./components/Achievements";
-import Contact from "./components/Contact";
-import References from "./components/References";
+import Hero from "./Sections/Hero";
+import Projects from "./Sections/Projects";
+import Experience from "./Sections/Experience";
+import Education from "./Sections/Education";
+import Skills from "./Sections/Skills";
+import Achievements from "./Sections/Achievements";
+import Contact from "./Sections/Contact";
+import References from "./Sections/References";
 import Footer from "./components/Footer";
 
 export default function App() {
