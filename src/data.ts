@@ -1,4 +1,4 @@
-// src/data.ts
+import type { Project } from "./components/ProjectCard";
 
 export const CONTACT = {
   name: "Rumeth Wijethunge",
@@ -88,7 +88,7 @@ export const CORE_SKILLS = [
   "Basic Frontend (HTML/CSS/JS)",
 ];
 
-export const PROJECTS = [
+export const PROJECTS: Project[] = [
   {
     title: "Shop Productivity System",
     desc: "Windows desktop app for small/mid shops: income/expense tracking and analytics with real-time reporting.",

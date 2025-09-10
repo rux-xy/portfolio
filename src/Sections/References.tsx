@@ -1,4 +1,5 @@
 import { REFERENCES } from "../data";
+import ReferencesCard from "../components/ReferencesCard";
 
 export default function References() {
   return (
@@ -9,17 +10,7 @@ export default function References() {
       </p>
       <div className="grid gap-4 sm:grid-cols-2">
         {REFERENCES.map((r) => (
-          <article
-            key={r.name}
-            className="rounded-2xl border border-[#24242a] bg-[#151518] p-4"
-          >
-            <h3 className="font-semibold">{r.name}</h3>
-            <p className="text-sm text-[#b4b4bb]">{r.title}</p>
-            <p className="text-xs text-[#b4b4bb] mt-1">
-              {r.phone}
-              {r.email ? ` • ${r.email}` : ""}
-            </p>
-          </article>
+          <ReferencesCard key={r.name} reference={r} />
         ))}
       </div>
     </section>

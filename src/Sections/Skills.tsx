@@ -1,4 +1,5 @@
 import { CORE_SKILLS } from "../data";
+import Chip from "../components/SkillsChip";
 
 export default function Skills() {
   return (
@@ -12,13 +13,8 @@ export default function Skills() {
       </p>
 
       <div className="flex flex-wrap gap-2">
-        {CORE_SKILLS.map((s) => (
-          <span
-            key={s}
-            className="text-xs text-[#b4b4bb] border border-[#24242a] rounded-full px-2 py-1"
-          >
-            {s}
-          </span>
+        {CORE_SKILLS.map((skill) => (
+          <Chip key={skill} label={skill} />
         ))}
       </div>
     </section>
