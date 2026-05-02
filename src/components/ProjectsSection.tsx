@@ -17,15 +17,15 @@ export const ProjectsSection = () => {
     tech: ['Spring Boot', 'React', 'MongoDB'],
     description:
     'Full-stack marketplace connecting freelancers with clients.',
-    github: '#',
-    demo: '#'
+    github: 'https://github.com/rux-xy/Unifreelancer',
+    demo: 'https://uni-freelancer.vercel.app/'
   },
   {
     title: 'GPA Management System',
     tech: ['React', 'Firebase'],
     description: 'Student GPA tracking and management application.',
-    github: '#',
-    demo: '#'
+    github: 'https://github.com/rux-xy/GPAcal',
+    demo: 'https://gpa-cal-orcin.vercel.app/login'
   },
   {
     title: 'Expense Manager',
