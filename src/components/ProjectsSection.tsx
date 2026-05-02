@@ -25,7 +25,7 @@ export const ProjectsSection = () => {
     tech: ['React', 'Firebase'],
     description: 'Student GPA tracking and management application.',
     github: 'https://github.com/rux-xy/GPAcal',
-    demo: 'https://gpa-cal-orcin.vercel.app/login'
+    demo: 'https://gpa-cal-orcin.vercel.app'
   },
   {
     title: 'Expense Manager',
